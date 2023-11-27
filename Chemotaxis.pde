@@ -2,7 +2,7 @@ Bacterium[] bacteria;
 Food crumb;
 int nob = 1000;
 void setup() {
-  size(1700, 1025);
+  size(800, 600);
   crumb = new Food(mouseX, mouseY);
   bacteria = new Bacterium[nob];
   for (int i = 0; i < bacteria.length; i++) {
